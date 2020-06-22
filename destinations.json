@@ -1,0 +1,13 @@
+{
+  ".txt": "/Users/admin/Desktop/newFolder/text-files/",
+  ".js": "/Users/admin/Desktop/newFolder/js-files/",
+  ".csv": "/Users/admin/Desktop/newFolder/csv-files/",
+  ".JPG": "/Users/admin/Desktop/newFolder/images/",
+  ".png": "/Users/admin/Desktop/newFolder/images/",
+  ".mov": "/Users/admin/Desktop/newFolder/video/",
+  ".mp4": "/Users/admin/Desktop/newFolder/video/",
+  ".aif": "/Users/admin/Desktop/newFolder/audio/",
+  ".mid": "/Users/admin/Desktop/newFolder/audio/",
+  ".midi": "/Users/admin/Desktop/newFolder/audio/",
+  ".pdf": "/Users/admin/Desktop/newFolder/pdfs/"
+}
