@@ -1,13 +1,16 @@
 {
-  ".txt": "/Users/admin/Desktop/newFolder/text-files/",
-  ".js": "/Users/admin/Desktop/newFolder/js-files/",
-  ".csv": "/Users/admin/Desktop/newFolder/csv-files/",
-  ".JPG": "/Users/admin/Desktop/newFolder/images/",
-  ".png": "/Users/admin/Desktop/newFolder/images/",
-  ".mov": "/Users/admin/Desktop/newFolder/video/",
-  ".mp4": "/Users/admin/Desktop/newFolder/video/",
-  ".aif": "/Users/admin/Desktop/newFolder/audio/",
-  ".mid": "/Users/admin/Desktop/newFolder/audio/",
-  ".midi": "/Users/admin/Desktop/newFolder/audio/",
-  ".pdf": "/Users/admin/Desktop/newFolder/pdfs/"
+  ".txt": "/Users/admin/Desktop/SortedDownloads/text-files/",
+  ".js": "/Users/admin/Desktop/SortedDownloads/js-files/",
+  ".csv": "/Users/admin/Desktop/SortedDownloads/csv-files/",
+  ".jpg": "/Users/admin/Desktop/SortedDownloads/images/",
+  ".jpeg": "/Users/admin/Desktop/SortedDownloads/images/",
+  ".gif": "/Users/admin/Desktop/SortedDownloads/images/",
+  ".png": "/Users/admin/Desktop/SortedDownloads/images/",
+  ".mov": "/Users/admin/Desktop/SortedDownloads/video/",
+  ".mp4": "/Users/admin/Desktop/SortedDownloads/video/",
+  ".aif": "/Users/admin/Desktop/SortedDownloads/audio/",
+  ".mid": "/Users/admin/Desktop/SortedDownloads/audio/",
+  ".midi": "/Users/admin/Desktop/SortedDownloads/audio/",
+  ".pdf": "/Users/admin/Desktop/SortedDownloads/pdfs/",
+  ".ts": "/Users/admin/Desktop/SortedDownloads/source-code/"
 }
