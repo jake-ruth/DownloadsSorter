@@ -3,14 +3,17 @@ from watchdog.events import FileSystemEventHandler
 import os
 import json
 import time
+import shutil
 
 
 class MyHandler(FileSystemEventHandler):
 
     # Called when a file appears in the watched folder
     def on_modified(self, event):
+        # time.sleep(10)
+
         folderToTrack = "/Users/admin/Downloads"
-        otherDestination = "/Users/admin/Desktop/SortedDownloads/other-files/"
+        otherDestination = "/Users/admin/Documents/SortedDownloads/other-files/"
 
         for filename in os.listdir(folderToTrack):
             if filename != '.DS_Store':
@@ -20,6 +23,12 @@ class MyHandler(FileSystemEventHandler):
 
                     # Get file name and file extension
                     fileName, fileExtension = os.path.splitext(filename)
+
+                    # Need this
+                    if (fileExtension == ".crdownload"):
+                        print("HERE!")
+                        break
+
                     print("extension: " + fileExtension)
                     print("name: " + filename)
                     src = folderToTrack + "/" + filename
@@ -36,12 +45,12 @@ class MyHandler(FileSystemEventHandler):
                         if not os.path.exists(destinations[lowerCaseExtension]):
                             os.makedirs(destinations[lowerCaseExtension])
 
-                        os.rename(src, newDestination)
+                        shutil.move(src, newDestination)
                     else:
                         if not os.path.exists(otherDestination):
                             os.makedirs(otherDestination)
 
-                        os.rename(src, otherDestination + filename)
+                        shutil.move(src, otherDestination + filename)
 
 
 if __name__ == "__main__":
